@@ -10,7 +10,7 @@ html {
 .bgimg-2,
 .bgimg-3 {
     position: relative;
-    /*opacity: 0.65;*/
+    /*opacity: 0.90;*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,7 +18,9 @@ html {
 }
 
 .bgimg-1 {
-    background-color: #1e1f1f;
+    opacity: 0.9;
+    background-image: url("img/bgimg2-01.png");
+    background-color: #161f47;
     height: 100%;
 }
 
