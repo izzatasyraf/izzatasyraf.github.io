@@ -166,4 +166,90 @@ a.btn-social,
     background-color: #e07d7d;
 }
 
+/* Hello */
+
+
+.messages {
+    margin-top: 30px;
+    
+}
+
+.message {
+    border-radius: 20px;
+    padding: 8px 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.mine {
+    padding-left: 0px;
+}
+
+.mine .message {
+    color: white;
+    margin-left: 25%;
+    background: linear-gradient(to bottom, #00D0EA 0%, #0085D1 100%);
+    background-attachment: fixed;
+    position: relative;
+}
+
+.mine .message.last:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    right: -8px;
+    height: 20px;
+    width: 20px;
+    background: linear-gradient(to bottom, #00D0EA 0%, #0085D1 100%);
+    background-attachment: fixed;
+    border-bottom-left-radius: 15px;
+}
+
+.mine .message.last:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: -10px;
+    width: 10px;
+    height: 20px;
+    background: #161f47;
+    border-bottom-left-radius: 10px;
+}
+
+.aboutimg{
+    max-width: 60%;
+    margin-top: 30%;
+    margin-left: 15%;
+     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+     0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.myButtonResume {
+    box-shadow: 0px 0px 30px -7px #000000;
+    background: linear-gradient(to bottom, #058c7c 5%, #058c7c 100%);
+    background-color: #058c7c;
+    border-radius: 28px;
+    border: 1px solid #058c7c;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    padding: 16px 31px;
+    text-decoration: none;
+    margin-top: 3%;
+}
+
+.myButtonResume:hover {
+    background: linear-gradient(to bottom, #058c7c 5%, #058c7c 100%);
+    background-color: #343838;
+}
+
+.myButtonResume:active {
+    position: relative;
+    top: 1px;
+}
 
