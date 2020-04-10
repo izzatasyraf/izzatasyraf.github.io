@@ -21,7 +21,7 @@ html {
 }
 
 .mybg {
-    background-color: #547980;
+    background-color: #617874;
 }
 
 .full-height {
@@ -137,25 +137,24 @@ nav ul li a {
 }
 
 .home-title {
-    padding-top: 10%;
-    border-bottom: 60px #00a99d;
+    padding-top: 6%;
 }
 
 .home-title p {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 70px;
     margin-bottom: 0px;
     text-align: center;
-    letter-spacing: 20px;
+    
     color: whitesmoke;
 
 }
 
 .home-desc {
-    font-family: 'Poppins',sans-serif;
-    font-weight: 500;
-    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    
+    font-size: 24px;
     text-align: center;
     color: whitesmoke;
 
@@ -181,22 +180,22 @@ nav ul li a {
 
 /* Set a specific color for each brand */
 .fa-github {
-    background: #3B5998;
+    /*background: #3B5998;*/
     color: white;
 }
 
 .fa-linkedin {
-    background: #007bb5;
+    /*background: #007bb5;*/
     color: white;
 }
 
 .fa-dribbble {
-    background: #ea4c89;
+    /*background: #ea4c89;*/
     color: white;
 }
 
 .fa-instagram {
-    background: #125688;
+    /*background: #125688;*/
     color: white;
 }
 
@@ -477,4 +476,3 @@ nav ul li a {
         direction: ltr;
     }
 }
-
