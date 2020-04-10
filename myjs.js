@@ -5,7 +5,6 @@ $(document).ready(function () {
 });
 
 // Scrolling Effect
-
 $(window).on("scroll", function () {
     if ($(window).scrollTop()) {
         $('nav').addClass('black');
@@ -14,6 +13,7 @@ $(window).on("scroll", function () {
 
     else {
         $('nav').removeClass('black');
-        $('nav ul li a').css('color', '#4d4d4d')
+        $('nav ul li a').css('color', 'white')
     }
 })
+
