@@ -478,7 +478,7 @@ nav ul li a {
 }
 
 /*Recent Works*/
-.recent-work-img{
+.recent-work-img {
     width: 90%;
     border-radius: 3%;
     cursor: pointer;
@@ -493,9 +493,21 @@ nav ul li a {
     transform: scale(1.2);
 }
 
+/*Project*/
+.myproject .row .col-9 p {
+    font-size: 16px;
+}
+
+.myproject .row .col-9 h3 {
+    font-weight: bold;
+}
+
+.myproject .row .col-1 h3 {
+    color: grey;
+}
 
 /*footer*/
-.footer-line{
+.footer-line {
     display: block;
     height: 1px;
     border: 1px solid grey;
