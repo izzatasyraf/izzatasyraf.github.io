@@ -21,7 +21,16 @@ html {
 }
 
 .mybg {
-    background-color: #617874;
+     /* The image used */
+     background-image: url("img/bg2.jpg");
+
+     /* Full height */
+     height: 100%;
+
+     /* Center and scale the image nicely */
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
 }
 
 .full-height {
@@ -57,10 +66,10 @@ nav ul {
     overflow: hidden;
     color: whitesmoke;
     padding: 0;
-    text-align: right;
+    text-align: center;
     margin: 0;
-    padding-right: 40px;
     transition: 1s;
+   
 }
 
 nav.black ul {
@@ -69,7 +78,7 @@ nav.black ul {
 
 nav ul li {
     display: inline-block;
-    padding: 16px 40px;
+    padding: 16px 50px;
 }
 
 nav ul li a {
@@ -138,16 +147,27 @@ nav ul li a {
 
 .home-title {
     padding-top: 6%;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 .home-title p {
     font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    font-size: 70px;
+    font-weight: 400;
+    font-size: 18px;
     margin-bottom: 0px;
-    text-align: center;
-
+    text-align: right;
     color: whitesmoke;
+
+}
+
+.home-title h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    color: whitesmoke;
+    text-align: center;
+    letter-spacing: 0.1em;
 
 }
 
@@ -273,7 +293,7 @@ nav ul li a {
     left: 0;
     right: 0;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 8%;
 }
 
 .scroll-btn>*:hover,

@@ -15,5 +15,4 @@ $(window).on("scroll", function () {
         $('nav').removeClass('black');
         $('nav ul li a').css('color', 'white')
     }
-})
-
+});
