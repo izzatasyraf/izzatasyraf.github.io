@@ -1,23 +1,27 @@
 body,
 html {
     height: 100%;
-    background-color: #e6e6e6;
+    background-color: #f0f0f0;
     font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
 
 }
 
 .title-all p {
     font-family: 'Poppins', sans-serif;
-    font-size: 40px;
-    font-weight: bolder;
+    font-size: 25px;
+    font-weight: 600;
     margin: 0px 0px 0px 0px;
+    text-transform: uppercase;
+    
 }
 
 .hr-all {
     display: block;
     height: 1px;
-    border: 2px solid #ff6464;
-    width: 100px;
+    border: 1.5px solid #ff6464;
+    width: 50px;
 }
 
 .mybg {
@@ -340,30 +344,32 @@ nav ul li a {
 
 /*About Me*/
 .AbtMe-1 {
-    padding-top: 5%;
+    padding-top: 70px;
+    padding-left: 20px;
 }
 
 .AbtMe-1 p {
-    font-size: 28px;
-    font-weight: lighter;
+    font-size: 16px;
+    font-weight: 400;
+    color: darkslategrey;
 }
 
 .profile-img {
     max-width: 70%;
-    border-radius: 3%;
+    border-radius: 5%;
 }
 
 .AbtMe-btn {
-    background-color: #058c7c;
-    border-radius: 5px;
-    border: 1px solid #058c7c;
+    background-color: #e64d4d;
+    border-radius: 25px;
+    border: 1px solid #e64d4d;
     display: inline-block;
     cursor: pointer;
     color: #ffffff;
     font-size: 14px;
-    padding: 10px 20px;
+    padding: 8px 18px;
     text-decoration: none;
-    margin-top: 5%;
+    margin-top: 3%;
 
 }
 
@@ -372,24 +378,38 @@ nav ul li a {
 }
 
 /*Education*/
+
+#Education{
+    font-family: 'Poppins',sans-serif;
+    background-color: #D6D8D7;
+    margin-top: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10em;
+    padding-right: 10em;
+     width: 100%;
+     max-width: 100%;
+
+}
+
 .edu-txt {
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .edu-txt-2 {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .edu-txt-3 {
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 /*Skills*/
 .progressBar-txt {
     text-align: left;
-    color: black;
+    color: darkslategray;
     font-size: 14px;
     font-weight: bold;
 }
@@ -444,8 +464,8 @@ nav ul li a {
     width: 16px;
     height: 16px;
     border-radius: 50%;
-    border: 2px solid #F5F7FA;
-    background: #547980;
+    border: 2px solid rgb(214, 214, 214);
+    background: #ff6464;
     margin-top: 10px;
     z-index: 2
 }
@@ -453,7 +473,7 @@ nav ul li a {
 .timeline-content {
     width: 95%;
     padding: 0 15px;
-    color: #666
+    color: darkslategrey;
 }
 
 .timeline-content h3 {
@@ -472,7 +492,8 @@ nav ul li a {
     font-size: 14px;
     line-height: 1.5em;
     word-spacing: 1px;
-    color: #888;
+    color: darkslategray;
+    font-weight: 400;
 }
 
 
