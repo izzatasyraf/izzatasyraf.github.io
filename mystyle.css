@@ -1,7 +1,7 @@
 body,
 html {
     height: 100%;
-    background-color: #f0f0f0;
+    background-color: #f1f1f1;
     font-family: 'Poppins', sans-serif;
     padding: 0;
     margin: 0;
@@ -384,7 +384,7 @@ nav ul li a {
 
 #Education{
     font-family: 'Poppins',sans-serif;
-    background-color: #D6D8D7;
+    background-color: rgb(230, 230, 230);
     margin-top: 10%;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -413,9 +413,10 @@ nav ul li a {
 .progressBar-txt {
     text-align: left;
     color: darkslategray;
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 16px;
+    font-weight: 500;
 }
+
 
 /*Work exp*/
 
@@ -538,6 +539,20 @@ nav ul li a {
 }
 
 /*Project*/
+#project{
+    font-family: 'Poppins',
+    sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10em;
+    padding-right: 10em;
+    width: 100%;
+    max-width: 100%;
+
+}
+
 .myproject .row .col-9 p {
     font-size: 16px;
 }
@@ -548,6 +563,29 @@ nav ul li a {
 
 .myproject .row .col-1 h3 {
     color: grey;
+}
+
+.proj-img{
+    max-width: 90%;
+}
+
+.proj-img-2 {
+    max-width: 95%;
+}
+
+/*Awward*/
+.achievement-img-1{
+    max-width: 90%;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+}
+
+.achievement-img-2 {
+    max-width: 90%;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
 }
 
 /*footer*/
