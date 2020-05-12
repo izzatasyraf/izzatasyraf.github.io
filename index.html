@@ -36,26 +36,30 @@
   <div class="mybg full-height">
   <!--Navbar-->
   <div style="height: 100px;">
-    <nav>
-      <div class="menu">
-        <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#AboutMe">ABOUT</a></li>
-          <li><a href="#">WORK</a></li>
-          <li><a href="#">PROJECT</a></li>
-          <li><a href="#">CONTACT</a></li>
-        </ul>
-      </div>
-    </nav>
-    </div>
+    <header>
+      <nav>
+        <div class="menu-icon">
+          <i class="fa fa-bars fa-2x"></i>
+        </div>
+          <div class="menu">
+            <ul>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#AboutMe">ABOUT</a></li>
+              <li><a href="#recent-work">WORK</a></li>
+              <li><a href="#project">PROJECT</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+          </div>
+      </nav>
+    </header>
+  </div>
 
     <center>
       <div class="container full-height">
         <div class="home-title pb-5">
-          <p>Hello! Welcome to my</p>
-          <h1>PORT<span style="color: #ff6464;">FOLIO</span></h1>
-          <p style="text-align: left;">Izzat Asyraf</p>
-          <p style="text-align: left;">Est - 2020</p>
+          <p>&nbsp;<span style="color: #ff6464;display: inline-block;">Hello!</span> Welcome to my</p>
+          <h1>PORT<span style="color: #ff6464;display: inline-block;">FOLIO</span></h1>
+          <p style="text-align: right;">Izzat Asyraf&nbsp;&nbsp;</p>
+          <p style="text-align: right;">Est - 2020&nbsp;&nbsp;</p>
         </div>
     </center>
   
@@ -327,7 +331,7 @@
 </div>
 
 <!--Recent Works-->
-<div class="container pb-5">
+<div id="recent-work" class="container pb-5">
   <div class="title-all pb-4" style="padding-top: 1%;">
     <center>
       <p>Recent Works</p>
@@ -476,33 +480,63 @@
   </div>
   <div class="row">
     <div class="col-6">
-      <img class="achievement-img-1" src="img/Deans List.jpg" alt="">
-      <div class="pt-3 pl-5">
-        <h3 class="text-uppercase">
-          <span style="font-size: 16px;font-weight: 600;color: darkslategray;">DEAN'S LIST AWARD</span>
-        </h3>
-        <p style="font-size: 16px;padding-top: 3px;color: gray;">
-          Recieved Dean's List Award for 4 semester during in IIUM.
-        </p>
-      </div>
+      <figure class="figure">
+        <img src="img/Deans List.jpg" class="figure-img img-fluid achievement-img-1" alt="">
+          <figcaption class="figure-caption">
+            <h3 class="text-uppercase pt-3" style="font-size: 16px;font-weight: 600;color: darkslategray;">
+            DEAN'S LIST AWARD
+            </h3>
+            <p style="font-size: 16px;padding-top: 3px;color: gray;">
+            Recieved Dean's List Award for 4 semester during in IIUM.
+            </p>
+          </figcaption>
+      </figure>
     </div>
-    
     <div class="col-6">
-      <img class="achievement-img-2"src="img/MotionU.jpg" alt="">
-      <div class="pt-3 pl-5">
-        <h3 class="text-uppercase">
-          <span style="font-size: 16px;font-weight: 600;color: darkslategray;">Motion-U Best Promising Start-Up Award</span>
-        </h3>
-        <p style="font-size: 16px;padding-top: 3px;color: gray;">
-          Recieved award for Final Year Project 1 titled IOT Smart Gardening.
-        </p>
-      </div>
-
+      <figure class="figure">
+        <img src="img/MotionU.jpg" class="figure-img img-fluid achievement-img-2" alt="">
+        <figcaption class="figure-caption">
+          <h3 class="text-uppercase pt-3" style="font-size: 16px;font-weight: 600;color: darkslategray;">
+            Motion-U Best Promising Start-Up Award
+          </h3>
+          <p style="font-size: 16px;padding-top: 3px;color: gray;">
+            Recieved award for Final Year Project 1 titled IOT Smart Gardening.
+          </p>
+        </figcaption>
+      </figure>
     </div>
-
   </div>
 </div>
 
+<!--Contact-->
+<div id="contact" class="container pt-5 mt-5 mb-5 pb-5">
+  <div class="title-all mb-5 pb-5">
+    <center>
+      <p>Contact</p>
+      <div class="hr-all"></div>
+    </center>
+  </div>
+  <div class="row">
+    <div class="col-4">
+      <a href="" class="fa fa-envelope noHover" style="font-size: 30px;"></a>
+      <h3 class="text-uppercase pt-3" style="font-size: 16px;font-weight: 500;color: darkslategray;">
+        izzatasyraf97@gmail.com
+      </h3>
+    </div>
+    <div class="col-4">
+      <a href="" class="fa fa-phone noHover" style="font-size: 30px;"></a>
+      <h3 class="text-uppercase pt-3" style="font-size: 16px;font-weight: 500;color: darkslategray;">
+        +6019-6510483
+      </h3>
+    </div>
+    <div class="col-4">
+      <a href="" class="fa fa-map-marker noHover" style="font-size: 30px;"></a>
+      <h3 class="text-uppercase pt-3" style="font-size: 16px;font-weight: 500;color: darkslategray;">
+        Bandar Baru Bangi, Selangor
+      </h3>
+    </div>
+  </div>
+</div>
 
 
 <!--footer-->
